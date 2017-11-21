@@ -1,0 +1,23 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "workbench.startupEditor": "none",    
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "explorer.openEditors.visible": 0,
+  "editor.tabSize": 2,
+  "eslint.enable": false,
+  "files.autoSave": "onFocusChange",
+  "typescript.check.npmIsInstalled": true,
+  "editor.minimap.enabled": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "git.enabled": true,
+  "telemetry.enableTelemetry": false,
+  "editor.smoothScrolling": true,
+  "vsicons.projectDetection.autoReload": true,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "window.zoomLevel": 1
+}
