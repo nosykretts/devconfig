@@ -1,0 +1,23 @@
+{
+	"mvcrouter": {
+		"prefix": "mvcrouter",
+		"body": [
+			"const express = require('express')",
+			"const bodyParser = require('body-parser')",
+			"let urlencodedParser = bodyParser.urlencoded({ extended: false })",
+			"",
+			"let router = express.Router()",
+			"let Controller = require('../controller/${1}')",
+			" ",
+			"router.get('/', Controller.${1}ListGet)",
+			"router.get('/add', Controller.${1}AddGet)",
+			"router.post('/', urlencodedParser, Controller.${1}ListPost)",
+			"router.get('/edit/:id', Controller.${1}EditGet)",
+			"router.post('/edit/:id', urlencodedParser, Controller.${1}EditPost)",
+			"router.get('/delete/:id', Controller.${1}DeleteGet)",
+			"",
+			"module.exports = router"
+		],
+		"description": "Router Template"
+	}
+}
