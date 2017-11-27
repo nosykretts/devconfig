@@ -11,7 +11,7 @@
 			" ",
 			"router.get('/', Controller.${1}ListGet)",
 			"router.get('/add', Controller.${1}AddGet)",
-			"router.post('/', urlencodedParser, Controller.${1}ListPost)",
+			"router.post('/', urlencodedParser, Controller.${1}AddPost)",
 			"router.get('/edit/:id', Controller.${1}EditGet)",
 			"router.post('/edit/:id', urlencodedParser, Controller.${1}EditPost)",
 			"router.get('/delete/:id', Controller.${1}DeleteGet)",
