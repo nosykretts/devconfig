@@ -3,18 +3,19 @@
     "files.associations": {
         "*.ejs": "html"
     },
+    "typescript.autoImportSuggestions.enabled": false,
     "workbench.startupEditor": "none",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
     "explorer.openEditors.visible": 0,
     "editor.tabSize": 2,
     "eslint.enable": false,
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "onWindowChange",
     "typescript.check.npmIsInstalled": true,
     "editor.minimap.enabled": false,
     "typescript.validate.enable": false,
     "javascript.validate.enable": false,
-    "git.enabled": true,
+    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "editor.smoothScrolling": true,
     "vsicons.projectDetection.autoReload": true,
@@ -22,7 +23,7 @@
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 1,
     "npm-intellisense.importES6": false,
     "workbench.colorCustomizations": {
         "statusBar.foreground": "#929292",
@@ -30,7 +31,8 @@
         "statusBar.noFolderBackground" : "#212121",
         "statusBar.debuggingBackground": "#263238"
     },
-    "prettier.trailingComma": "none",
+    "prettier.trailingComma": "es5",
     "prettier.semi": false,
-    "prettier.singleQuote": true
+    "prettier.singleQuote": true,
+    "vetur.validation.template": false
 }
